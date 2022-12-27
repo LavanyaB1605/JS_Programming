@@ -1,0 +1,14 @@
+let A= Math.floor(Math.random() * 99) + 10
+console.log("Value of A = "+A);
+let B= Math.floor(Math.random() * 99) + 10
+console.log("Value of B = "+B);
+let C= Math.floor(Math.random() * 99) + 10
+console.log("Value of C = "+C);
+let D= Math.floor(Math.random() * 99) + 10
+console.log("Value of D = "+D);
+let E= Math.floor(Math.random() * 99) + 10
+console.log("Value of E = "+E);
+let sum = A+B+C+D+E;
+console.log("Sum Of Five Random Numbers are= "+sum);
+let avg = sum/5;
+console.log("Avarage Of Five Random Numbers are= "+avg);
